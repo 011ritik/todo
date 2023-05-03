@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.input_filed form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    border-radius: 10px;
+}
+
+.input-todo {
+    width: 85%;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 1.3rem;
+}
+
+.btn {
+    width: 7%;
+    border-radius: 10px;
+    border: none;
+    height: 80%;
+    background-color: #8ca2b0;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: #718c9e;
+}
+
+.task-container {
+    margin-top: 4rem;
+    height: 45vh;
+    overflow-y: scroll;
+}
+
+.task-container::-webkit-scrollbar {
+    display: none;
+}
